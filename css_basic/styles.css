@@ -7,18 +7,15 @@ main{
     display: flex;
     flex-direction: row;
     flex: auto;
-    border-color: aliceblue;
-    border: 3px;
+    
 }
 article{
     flex: 2;
     overflow-y: auto;
-    border-color: aquamarine;
-    border: 3px;
+    
 }
 aside{
     flex: 1;
     overflow-y: auto;
-    border-color:brown;
-    border: 3px;
+  
 }
