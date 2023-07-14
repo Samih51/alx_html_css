@@ -275,3 +275,24 @@ span{
     font-weight: var(--font-weight-small);
     font-size: var(--font-size-small);
  }
+.faq h2{
+    font-weight: var(--font-weight-x-small);
+    font-size: var(--font-size-xx-large);
+    text-align: center;
+}
+.how-it{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 19%;
+    padding: 0 16%;
+}
+.how-it-item h6{
+font-size: var(--font-size-medium);
+font-weight: var(--font-weight-bold);
+}
+.how-it-item p{
+
+    font-weight: var(--font-weight-small);
+    font-size: var(--font-size-small);
+    line-height: 1.5rem;
+}
