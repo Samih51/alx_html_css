@@ -41,6 +41,7 @@
   }
 html {
     scroll-behavior: smooth;
+    margin: 0;
 }
 body{
     font-family: var(--font-family-base);
@@ -192,6 +193,14 @@ span{
     font-weight: var(--font-weight-small);
     font-size: var(--font-size-large);
  }
+ .vid-section{
+    padding: 5% 0;
+ }
+ .vid{
+    text-align: center;
+    margin: 0 0 5%;
+ }
+ 
  .video-title{
     color: var(--color-primary);
  }
@@ -227,6 +236,7 @@ span{
     color: var(--color-primary);
     font-weight: var(--font-weight-small);
     font-size: var(--font-size-small);
+    line-height: 1.5rem;
   }
   .rater{
     position: relative;
@@ -316,7 +326,9 @@ font-weight: var(--font-weight-bold);
 padding: 0 13%;
 }
 .last{
+    color: var(--color-white);
 text-align: center;
 font-size: var(--font-size-x-small);
 font-weight: var(--font-weight-small);
+margin: 0;
 }
