@@ -249,4 +249,29 @@ span{
   }
  .membership{
     margin-top: 5%;
+    background-color: var(--color-primary);
+    text-align: center;
+    padding: 4% 0 ;
+ }
+ .membership-title{
+
+    padding-bottom: 5%;
+ }
+ 
+ .members{
+    display: flex;
+    padding: 0 7% 4%;
+ }
+ .members div{
+    padding: 0 4%;
+ }
+ .members h4{
+    font-size: var(--font-size-x-medium);
+    font-weight: var(--font-weight-regular);
+    color: var(--color-white);
+ }
+ .members p{
+    color: var(--color-white);
+    font-weight: var(--font-weight-small);
+    font-size: var(--font-size-small);
  }
