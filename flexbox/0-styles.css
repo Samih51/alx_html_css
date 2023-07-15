@@ -186,7 +186,8 @@
     list-style: none;
     
   }
- .row{
+ .row{ 
+  
     display: flex;
  }
   
