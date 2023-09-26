@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+        }
+        div{
+            border: 2px solid silver;
+            border-radius: 2%;
+            width: 38%;
+        }
+        ul{
+            list-style-type: none;
+            padding: 0% 19%;
+        }
+        label{
+            font-weight: bold;
+            text-align: left;
+
+        }
+
+        .text{
+            padding-left: 5.5%;
+        }
+        .msgHeader {
+            display: flex;
+        }
+        .msg{
+            padding-right: 1%;
+        }
+      .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+      }
+    </style>
+</head>
+<body>
+    <form action="/contact-form">
+        <div>
+        <ul>
+            <li class="text">
+                <label for="name">Name </label>
+                <input type="text" class="name">
+            </li>
+            <br>
+            <li class="text">
+                <label for="email">Email </label>
+                <input type="text" class="email">
+            </li>
+            <br>
+            <li class="msgHeader">
+                <label for="msg" class="msg">Message</label>
+                <textarea name="msg" id="" cols="30" rows="10"></textarea>
+            </li>
+            <br>
+            <li class="btn">
+                <button>Submit</button>
+            </li>
+        
+        </ul>
+        </div>
+    </form>
+</body>
+</html>
