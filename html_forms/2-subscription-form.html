@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Form</title>
+    <style>
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+        }
+        div{
+            border: 2px solid silver;
+            border-radius: 2%;
+            width: 50%;
+        }
+        ul{
+            list-style-type: none;
+        }
+        label{
+            font-weight: bold;
+            text-align: left;
+
+        }
+
+        .text{
+            padding-left: 16.5%;
+            
+        }
+        .size{
+
+            width: 50%;
+            margin-bottom: 2%;
+        }
+      .btn{
+         margin: 0 38%;
+      }
+      .radio{
+        margin: 0 14%;
+      }
+      .year{
+        margin-left: 3.3%;
+      }
+</style>
+</head>
+<body>
+    
+    <form action="/subscription-form">
+        <div>
+        <ul>
+            <li class="text">
+                <label >Name</label>
+                <input type="text" class="name size">
+            </li>
+            <li class="text">
+                <label >Email</label>
+                <input type="email" class="email size">
+            </li>
+            <li class="radio">
+                <label class="year">Yearly</label>
+                <input type="radio" >
+            </li>
+            <li class="radio">
+                <label >Monthly</label>
+                <input type="radio" >
+
+            </li>
+            <li class="btn">
+                <button type="submit">Submit</button>
+            </li>
+        </ul>
+        </div>
+    </form>
+
+</body>
+</html>
