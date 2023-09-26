@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+        }
+        div{
+            border: 2px solid silver;
+            border-radius: 2%;
+            width: 50%;
+        }
+        ul{
+            list-style-type: none;
+        }
+        label{
+            font-weight: bold;
+            text-align: left;
+
+        }
+
+        .text{
+            padding-left: 16.5%;
+            
+        }
+        input{
+            margin-bottom: 2%;
+        }
+        .size{
+            width: 50%;
+
+        }
+        .check{
+            margin-left: 26%;
+        }
+        .file{
+            margin-left: 17%;
+        }
+      .btn{
+         margin: 0 38%;
+            
+      }
+    </style>
+</head>
+<body>
+    <form action="/feedback-form">
+        <div>
+        <ul>
+            <li class="text">
+                <label >Name </label>
+                <input type="text" class="name size">
+            </li>
+            <li class="text">
+                <label >Email </label>
+                <input type="email" class="email size">
+            </li>
+            <li class="check">
+                <label>
+                    <input type="checkbox"> Excelent
+                </label>
+            </li>
+            <li class="check">
+                <label>
+                    <input type="checkbox"> Good
+                </label>
+            </li>
+            <li class="check">
+                <label>
+                    <input type="checkbox"> Average
+                </label>
+            </li>
+            <li class="check">
+                <label>
+                    <input type="checkbox"> Poor
+                </label>
+            </li>
+            <li class="file">
+                <label  class="msg">File</label>
+                <input type="file">
+            </li>
+            <li class="btn">
+                <button type="submit">Submit</button>
+            </li>
+        </ul>
+        </div>
+    </form>
+</body>
+</html>
