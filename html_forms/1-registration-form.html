@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+        }
+        div{
+            border: 2px solid silver;
+            border-radius: 2%;
+            width: 50%;
+        }
+        ul{
+            list-style-type: none;
+        }
+        label{
+            font-weight: bold;
+            text-align: left;
+
+        }
+
+        .text{
+            padding-left: 16.5%;
+            
+        }
+        input{
+
+            width: 50%;
+            margin-bottom: 2%;
+        }
+        .passwd{
+            padding-left: 12%;
+            margin-bottom: 2%;
+        }
+        .passwd input{
+            width: 48%;
+        }
+        .conf-passwd input{
+            width: 42.5%;
+        }
+        .conf-passwd{
+            margin-bottom: 2%;
+        }
+      .btn{
+         margin: 0 50%;
+            
+      }
+    </style>
+</head>
+<body>
+    <form action="/registration-form">
+        <div>
+        <ul>
+            <li class="text">
+                <label >Name <span aria-label="required">*</span></label>
+                <input type="text" class="name">
+            </li>
+            <li class="text">
+                <label >Email <span aria-label="required">*</span></label>
+                <input type="email" class="email">
+            </li>
+            <li class="passwd">
+                <label  class="msg">Password <span aria-label="required">*</span></label>
+                <input type="password" class="pass">
+            </li>
+            <li class="conf-passwd">
+                <label  class="msg">Consfirm Password <span aria-label="required">*</span></label>
+                <input type="password" class="conf-pass">
+            </li>
+            <li class="btn">
+                <button type="submit">Submit</button>
+            </li>
+        </ul>
+        </div>
+    </form>
+</body>
+</html>
